@@ -5,6 +5,10 @@ import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @author jasokan
+ *
+ */
 public class JMapTimeTest {
 
     public static void main(String[] args) {

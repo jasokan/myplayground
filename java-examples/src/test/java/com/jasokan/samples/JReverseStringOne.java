@@ -2,6 +2,10 @@ package com.jasokan.samples;
 
 import java.io.IOException;
 
+/**
+ * @author jasokan
+ *
+ */
 public class JReverseStringOne {
     private String inputString;
     private String outputString;

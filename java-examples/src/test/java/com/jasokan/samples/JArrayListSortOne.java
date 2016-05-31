@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * @author jasokan
+ *
+ */
 public class JArrayListSortOne {
 
     public static void main(String[] args) {

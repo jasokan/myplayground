@@ -43,17 +43,20 @@ public class JFilterTest {
 	/** Select JEmployees where age code is less than or equals to 200. */
 	Map<String, Integer> parameters = new HashMap<String, Integer>(1);
 	parameters.put("age", new Integer(200));
-	List<JEmployee> ageList = empFilter.filter("{ 'age':{'$le':'?age'}}", parameters).out(new ArrayList<JEmployee>());
+	List<JEmployee> ageList = empFilter.filter("{ 'age':{'$le':'?age'}}", parameters).out(
+		new ArrayList<JEmployee>());
 
 	/** Select JEmployees whose address1 is ADDRESS LINE 1. */
 
 	Map<String, String> params = new HashMap<String, String>(1);
 	params.put("address1", "ADDRESS LINE 1");
-	List<JEmployee> fAddressList = empFilter.filter("{'address1':{'toUpperCase':'?address1'}}", params).out(new ArrayList<JEmployee>());
+	List<JEmployee> fAddressList = empFilter.filter("{'address1':{'toUpperCase':'?address1'}}", params).out(
+		new ArrayList<JEmployee>());
 
 	params.put("address1", "Address Line 1");
 	/** Select JEmployees whose address1 starts with Address Line 1. */
-	List<JEmployee> fAddressList1 = empFilter.filter("{'address1':{'$sw':'?address1'}}", params ).out(new ArrayList<JEmployee>());
+	List<JEmployee> fAddressList1 = empFilter.filter("{'address1':{'$sw':'?address1'}}", params).out(
+		new ArrayList<JEmployee>());
 
 	System.out.println(ageList.size());
 	System.out.println(fAddressList.size());

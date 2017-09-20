@@ -2,14 +2,6 @@ package com.jasokan.models;
 
 public class JEmployee {
 
-    private int empId;
-    private String fName;
-    private String sName;
-    private int age;
-    private String address1;
-    private String address2;
-    private String zipCode;
-
     public JEmployee(int empId, String fName, String sName, int age, String address1, String address2, String zipCode) {
 	super();
 	this.empId = empId;
@@ -20,6 +12,16 @@ public class JEmployee {
 	this.address2 = address2;
 	this.zipCode = zipCode;
     }
+
+    private int empId;
+    private String fName;
+    private String sName;
+    private int age;
+    private String address1;
+    private String address2;
+    private String zipCode;
+
+    
 
     public int getEmpId() {
 	return empId;

@@ -18,13 +18,11 @@ public class JFilterTest {
 	int count = 50;
 
 	for (int i = 0; i < count; i++) {
-	    JEmployee emp = new JEmployee(i, "Jagan" + i, "Asokan" + i, i + 100, "Address Line 1 " + i,
-		    "Address Line 2 " + i, "30000" + i);
+	    JEmployee emp = new JEmployee(i, "Jagan" + i, "Asokan" + i, i + 100, "Address Line 1 " + i, "Address Line 2 " + i, "30000" + i);
 	    empList.add(emp);
 	}
 	for (int i = 0; i < count; i++) {
-	    JEmployee emp = new JEmployee(i, "Satya" + i, "Asokan" + i, i + 200, "Address Line 1-1 " + i,
-		    "Address Line 2-1 " + i, "50000" + i);
+	    JEmployee emp = new JEmployee(i, "Satya" + i, "Asokan" + i, i + 200, "Address Line 1-1 " + i, "Address Line 2-1 " + i, "50000" + i);
 	    empList.add(emp);
 	}
 	for (int i = 0; i < count; i++) {

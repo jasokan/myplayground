@@ -6,6 +6,10 @@ import java.util.stream.Stream;
 
 
 
+/**
+ * @author jasokan
+ *
+ */
 public class JFutureExample1 {
 
 	public static void main(String... args) {

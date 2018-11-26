@@ -8,6 +8,10 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
+/**
+ * @author jasokan
+ *
+ */
 public class JTimezoneExample1 {
 
 	public enum OffsetBase {

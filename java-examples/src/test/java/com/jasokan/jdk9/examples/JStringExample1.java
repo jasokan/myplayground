@@ -5,6 +5,10 @@ import static java.util.stream.Collectors.toList;
 import java.util.List;
 import java.util.stream.IntStream;
 
+/**
+ * @author jasokan
+ *
+ */
 public class JStringExample1 {
 
 	public static void main(String... args) {

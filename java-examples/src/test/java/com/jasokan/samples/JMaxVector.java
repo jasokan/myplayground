@@ -3,6 +3,10 @@ package com.jasokan.samples;
 import java.util.Collections;
 import java.util.Vector;
 
+/**
+ * @author jasokan
+ *
+ */
 public class JMaxVector {
 
     public static void main(String[] args) {

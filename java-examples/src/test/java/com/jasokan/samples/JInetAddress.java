@@ -3,6 +3,10 @@ package com.jasokan.samples;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 
+/**
+ * @author jasokan
+ *
+ */
 public class JInetAddress {
 
     public static void main(String[] args) {

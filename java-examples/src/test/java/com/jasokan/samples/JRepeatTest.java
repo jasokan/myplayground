@@ -3,6 +3,10 @@ package com.jasokan.samples;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @author jasokan
+ *
+ */
 public class JRepeatTest {
     public static void main(String[] args) {
 	String repeatValue = "abcaadijmnopawerasdfwer";

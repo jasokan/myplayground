@@ -11,6 +11,10 @@ import jdk.incubator.http.HttpResponse;
 
 
 
+/**
+ * @author jasokan
+ *
+ */
 public class JHTTPClient {
 
 	public static void main(String[] args) {

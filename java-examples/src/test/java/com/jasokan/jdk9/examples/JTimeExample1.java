@@ -10,6 +10,10 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
+/**
+ * @author jasokan
+ *
+ */
 public class JTimeExample1 {
 
 	public static List<Date> getDatesBetweenUsingJava7(Date startDate, Date endDate) {

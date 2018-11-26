@@ -9,6 +9,10 @@ import xyz.capybara.clamav.ClamavClient;
 import xyz.capybara.clamav.Platform;
 import xyz.capybara.clamav.commands.scan.result.ScanResult;
 
+/**
+ * @author jasokan
+ *
+ */
 public class JClamAVTest {
 
 	public static void main(String[] args) throws URISyntaxException {

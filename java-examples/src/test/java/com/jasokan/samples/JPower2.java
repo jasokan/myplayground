@@ -2,6 +2,10 @@ package com.jasokan.samples;
 
 import java.util.Scanner;
 
+/**
+ * @author jasokan
+ *
+ */
 public class JPower2 {
     
     public static void main(String[] args) {

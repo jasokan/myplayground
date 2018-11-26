@@ -2,6 +2,10 @@ package com.jasokan.jdk9.examples;
 
 import java.util.stream.Stream;
 
+/**
+ * @author jasokan
+ *
+ */
 public class JStreamExample1 {
 	
 	public static void main(String[] args) {

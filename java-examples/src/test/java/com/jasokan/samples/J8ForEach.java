@@ -5,6 +5,10 @@ import java.util.List;
 import java.util.Random;
 import java.util.function.Consumer;
 
+/**
+ * @author jasokan
+ *
+ */
 public class J8ForEach {
 
     public static void main(String[] args) {

@@ -1,5 +1,9 @@
 package com.jasokan.samples;
 
+/**
+ * @author jasokan
+ *
+ */
 public class JLambdaTest {
     
     public static void main(String[] args) {

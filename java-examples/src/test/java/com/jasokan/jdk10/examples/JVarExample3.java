@@ -1,5 +1,9 @@
 package com.jasokan.jdk10.examples;
 
+/**
+ * @author jasokan
+ *
+ */
 public class JVarExample3 {
 	
 	static Object justCreate() { return null;}

@@ -2,6 +2,10 @@ package com.jasokan.jdk10.examples;
 
 import java.util.HashMap;
 
+/**
+ * @author jasokan
+ *
+ */
 public class JVarExample2 {
 	
 	public static void main(String... args) {

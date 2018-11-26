@@ -3,6 +3,10 @@ package com.jasokan.samples;
 import org.perf4j.LoggingStopWatch;
 import org.perf4j.StopWatch;
 
+/**
+ * @author jasokan
+ *
+ */
 public class JStringTest {
     
     public static void main(String[] args) {

@@ -1,5 +1,9 @@
 package com.jasokan.models;
 
+/**
+ * @author jasokan
+ *
+ */
 public class JEmployee {
 
     public JEmployee(int empId, String fName, String sName, int age, String address1, String address2, String zipCode) {

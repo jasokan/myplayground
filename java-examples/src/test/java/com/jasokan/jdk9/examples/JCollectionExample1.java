@@ -3,6 +3,10 @@ package com.jasokan.jdk9.examples;
 import java.util.List;
 import java.util.Set;
 
+/**
+ * @author jasokan
+ *
+ */
 public class JCollectionExample1 {
 
 	public static void main(String[] args) {

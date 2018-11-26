@@ -1,5 +1,9 @@
 package com.jasokan.jdk10.examples;
 
+/**
+ * @author jasokan
+ *
+ */
 public class JVarExample1 {
 	
 	public static void main(String[] args) {

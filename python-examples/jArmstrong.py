@@ -1,16 +1,19 @@
-lower = int(input("Enter lower range: "))
-upper = int(input("Enter upper range: "))
+import math
 
-for num in range(lower,upper + 1):
-   # initialize sum
-   sum = 0
+def checkArmstrong(givenNumber):
+    digitCount = 3
+    number = givenNumber
+    total = 0
+    while number > 0:
+        lastDigit = number % 10
+        number = math.floor( number/ 10)
+        total = total + lastDigit**digitCount
 
-   # find the sum of the cube of each digit
-   temp = num
-   while temp > 0:
-       digit = temp % 10
-       sum += digit ** 3
-       temp //= 10
+    # If condition satisfies
+    return total == givenNumber
 
-   if num == sum:
-       print(num)
+
+testnumber=153
+print(checkArmstrong(testnumber))
+
+

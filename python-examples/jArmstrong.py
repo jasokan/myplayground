@@ -1,3 +1,6 @@
+#
+# Created by Jagannathan Asokan
+#
 import math
 
 def checkArmstrong(givenNumber):

@@ -1,3 +1,7 @@
+#
+# Created by Jagannathan Asokan
+#
+
 class Stack:
    # stack backed by python list
    def __init__(self):

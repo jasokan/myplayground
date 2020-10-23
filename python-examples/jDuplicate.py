@@ -11,4 +11,4 @@ for c in x:
       dup_chars.add(c)
    else:
       uniq_chars.add(c)
-print dup_chars
+print(dup_chars)

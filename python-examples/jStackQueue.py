@@ -27,46 +27,46 @@ class Queue:
          # not first enque...
          # ...so transfer elements from pop_stack to push_stack...
          # ...to restore enqueue order
-         for i in xrange(self.pop_stack.size()):
+         for i in range(self.pop_stack.size()):
             self.push_stack.push(self.pop_stack.pop())
       self.push_stack.push(elem)
-      print "enqued ", elem
+      print("enqued ", elem)
 
    def deque(self):
       if self.pop_stack.size() == 0 and self.push_stack.size() > 0:
          # not first deque...
          # ...so transfer elements from push_stack to pop_stack...
          # ...to restore dequeue order
-         for i in xrange(self.push_stack.size()):
+         for i in range(self.push_stack.size()):
             self.pop_stack.push(self.push_stack.pop())
       elem = self.pop_stack.pop()
-      print "dequed ", elem
+      print("dequed ", elem)
       return elem
 
    def show(self):
-      print "push stack", self.push_stack.l
-      print "pop stack", self.pop_stack.l
-      print "\n"
+      print("push stack", self.push_stack.l)
+      print("pop stack", self.pop_stack.l)
+      print("\n")
 
 q = Queue()
-print "enqueing elements"
+print("enqueing elements")
 q.enque(1)
 q.show()
 q.enque(2)
 q.show()
 q.enque(3)
 q.show()
-print "dequeing elements"
+print("dequeing elements")
 q.deque()
 q.show()
 q.deque()
 q.show()
-print "enqueing elements"
+print("enqueing elements")
 q.enque(4)
 q.show()
 q.enque(5)
 q.show()
-print "dequeing elements"
+print("dequeing elements")
 q.deque()
 q.show()
 q.deque()
